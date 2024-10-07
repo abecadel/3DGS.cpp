@@ -2,7 +2,7 @@
 
 #include "glm/glm.hpp"
 #include "spdlog/spdlog.h"
-#include <vk_enum_string_helper.h>
+#include <vulkan/vk_enum_string_helper.h>
 
 Swapchain::Swapchain(const std::shared_ptr<VulkanContext>& context, const std::shared_ptr<Window>& window,
                      bool immediate) : context(context), window(window), immediate(immediate) {
